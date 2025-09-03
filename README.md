@@ -1,6 +1,9 @@
 # PDF Chart & Table Extractor
 
 This project extracts **charts** and **tables** from PDF files using YOLO-based detection and classification models.
+The YOLO doclay detection model detects figures and figure captions. They are cropped based on their bounding boxes and sent to YOLOV11classification model( chart or non chart) to extract only charts and saved.
+Similarly the YOLO doclay detection model directly detects tables and table captions. They are cropped and saved
+
 
 ---
 
