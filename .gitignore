@@ -1,25 +1,20 @@
 # Python cache
-pycache/
+__pycache__/
 *.pyc
 
-Colab checkpoints
+# Colab checkpoints
+.ipynb_checkpoints/
 
-*.ipynb_checkpoints
-
-Outputs
-
+# Outputs
 output_charts/
 output_tables/
 
-OS files
-
+# OS files
 .DS_Store
 Thumbs.db
 
-Large model files (optional if using Git LFS)
-
-*.pt
-
-Logs
-
+# Logs
 *.log
+
+# Models (allow tracking .pt files)
+
