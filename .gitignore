@@ -1,0 +1,25 @@
+# Python cache
+pycache/
+*.pyc
+
+Colab checkpoints
+
+*.ipynb_checkpoints
+
+Outputs
+
+output_charts/
+output_tables/
+
+OS files
+
+.DS_Store
+Thumbs.db
+
+Large model files (optional if using Git LFS)
+
+*.pt
+
+Logs
+
+*.log

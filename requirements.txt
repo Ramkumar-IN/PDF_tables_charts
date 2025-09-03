@@ -1,0 +1,5 @@
+ultralytics
+pdf2image
+doclayout_yolo
+opencv-python
+numpy
