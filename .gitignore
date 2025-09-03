@@ -5,10 +5,6 @@ __pycache__/
 # Colab checkpoints
 .ipynb_checkpoints/
 
-# Outputs
-output_charts/
-output_tables/
-
 # OS files
 .DS_Store
 Thumbs.db
