@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-get_ipython().system('pip install ultralytics doclayout_yolo pdf2image')
-
-
-# In[ ]:
-
+pip install ultralytics doclayout_yolo pdf2image
 
 import os
 import numpy as np
@@ -18,24 +8,10 @@ import cv2
 from pdf2image import convert_from_path
 
 
-# In[ ]:
-
-
 get_ipython().system('apt-get update')
 get_ipython().system('apt-get install -y poppler-utils')
 
 
-# In[ ]:
-
-
-get_ipython().system('ls "/content/drive/My Drive/Colab Notebooks/pdf_chart_tables_extractor/input_pdfs/"')
-
-
-# In[45]:
-
-
-#!/usr/bin/env python
-# coding: utf-8
 
 
 # ===============================
@@ -48,10 +24,10 @@ model_classify = YOLO("models/classification_chart.pt")  # classification model
 # ===============================
 # Config
 # ===============================
-input_pdf = "input_pdfs/TrendForce - Server DRAM Presentation of Aug. 2022 v2.pdf"
+input_pdf = "input_pdfs/your_input.pdf"
 
-output_charts = "output_charts5"
-output_tables = "output_tables5"
+output_charts = "output_charts"
+output_tables = "output_tables"
 os.makedirs(output_charts, exist_ok=True)
 os.makedirs(output_tables, exist_ok=True)
 
